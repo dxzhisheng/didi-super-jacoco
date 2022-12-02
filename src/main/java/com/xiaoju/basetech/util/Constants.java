@@ -8,7 +8,7 @@ package com.xiaoju.basetech.util;
  */
 public class Constants {
 
-    public static final String OUT_PUT_HOME = System.getProperty("user.home");
+    public static final String OUT_PUT_HOME = System.getProperty("user.home")+"/jacoco_output_home";
 
     public static final String CODE_ROOT = OUT_PUT_HOME+"/app/super_jacoco/clonecode/";
     public static final String LOG_PATH = OUT_PUT_HOME+"/report/logs/";
