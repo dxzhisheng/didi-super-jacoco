@@ -8,11 +8,13 @@ package com.xiaoju.basetech.util;
  */
 public class Constants {
 
-    public static final String CODE_ROOT = System.getProperty("user.home")+"/app/super_jacoco/clonecode/";
-    public static final String LOG_PATH = System.getProperty("user.home")+"/report/logs/";
-    public static final String REPORT_PATH = System.getProperty("user.home")+"/report/";
+    public static final String OUT_PUT_HOME = System.getProperty("user.home");
+
+    public static final String CODE_ROOT = OUT_PUT_HOME+"/app/super_jacoco/clonecode/";
+    public static final String LOG_PATH = OUT_PUT_HOME+"/report/logs/";
+    public static final String REPORT_PATH = OUT_PUT_HOME+"/report/";
     public static final String NO_DIFFCODE_REPORT = LocalIpUtils.getTomcatBaseUrl() + "nodiffcode.html";
-    public static final String JACOCO_RESOURE_PATH =System.getProperty("user.home")+ "/resource/jacoco-resources";
+    public static final String JACOCO_RESOURE_PATH =OUT_PUT_HOME+ "/resource/jacoco-resources";
 
     public enum JobStatus {
 

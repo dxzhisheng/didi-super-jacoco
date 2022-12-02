@@ -1,5 +1,6 @@
 package com.xiaoju.basetech;
 
+import com.xiaoju.basetech.util.Constants;
 import lombok.extern.java.Log;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -18,6 +19,9 @@ public class CodeCovApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CodeCovApplication.class, args);
+
+        String output = Constants.OUT_PUT_HOME;
+        log.info(">>>>>>>>>>"+output);
     }
 
 }
