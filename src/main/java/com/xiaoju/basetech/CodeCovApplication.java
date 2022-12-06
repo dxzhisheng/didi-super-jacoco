@@ -21,7 +21,7 @@ public class CodeCovApplication {
         SpringApplication.run(CodeCovApplication.class, args);
 
         String output = Constants.OUT_PUT_HOME;
-        log.info(">>>>>>>>>>"+output);
+        log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OUT_PUT_HOME="+output);
     }
 
 }
